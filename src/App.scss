@@ -1,0 +1,24 @@
+@import "./styles/Colores.scss";
+
+.App {
+  width: 90%;
+  padding-top: 1rem;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contenedor-calculadora {
+  width: 40rem;
+  height: 60rem;
+  padding: 1.4rem;
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

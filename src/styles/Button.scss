@@ -1,0 +1,38 @@
+@import "./Colores.scss";
+.button {
+  background-color: $color-gris-01;
+  border: 2px solid $color-gris-02;
+
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.2rem;
+  font-weight: 400;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.number {
+  background-color: $color-gris-01;
+  border: 2px solid $color-gris-02;
+  color: #fff;
+}
+
+.operator-positive {
+  color: $color-verde-01;
+}
+
+.operator-negative {
+  color: $color-rojo-01;
+}
+
+.equals {
+  color: #fff;
+  background-color: $color-verde-03;
+  border: none;
+}
